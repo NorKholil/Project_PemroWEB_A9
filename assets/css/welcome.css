@@ -1,0 +1,408 @@
+@import url("https://use.typekit.net/rih8hmv.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+.nav {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 100%), url(img/bg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 7px;
+    height: 50px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* Tambahkan CSS untuk menu-icon */
+
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.parent1 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 70px;
+}
+
+.parent2 {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(54, 52, 52);
+}
+
+.heading h2 {
+    font-weight: normal;
+    font-size: 23px;
+    width: 572px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(54, 52, 52);
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: rgb(13, 235, 13);
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.bi {
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+.bi-chevron-right {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.news {
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.donate {
+    float: left;
+}
+
+.content img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.info {
+    position: absolute;
+    width: 394px;
+    height: 300px;
+    left: 809px;
+    top: 335px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.06), 0px 15.8755px 33.4221px rgba(0, 0, 0, 0.0431313), 0px 8.4878px 17.869px rgba(0, 0, 0, 0.0357664), 0px 4.75819px 10.0172px rgba(0, 0, 0, 0.03), 0px 2.52704px 5.32008px rgba(0, 0, 0, 0.0242336), 0px 1.05156px 2.21381px rgba(0, 0, 0, 0.0168687);
+    border-radius: 25px;
+}
+
+.nominal {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-style: medium;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    letter-spacing: 0.055em;
+    color: #000000;
+}
+
+.total {
+    display: flex;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #BBBBBB;
+}
+
+svg {
+    margin-left: 3px;
+    color: #BBBBBB;
+}
+
+.w3-light-white {
+    display: flex;
+    margin-left: 40px;
+}
+
+.w3-round-xlarge {
+    box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.04), 0px 5.84887px 33.4221px rgba(0, 0, 0, 0.0287542), 0px 3.12708px 17.869px rgba(0, 0, 0, 0.0238443), 0px 1.75302px 10.0172px rgba(0, 0, 0, 0.02), 0px 0.931014px 5.32008px rgba(0, 0, 0, 0.0161557), 0px 0.387416px 2.21381px rgba(0, 0, 0, 0.0112458);
+    width: 306px;
+}
+
+.w3-container {
+    background-color: #3DEF3D;
+    color: #3DEF3D;
+}
+
+.monthly {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #BBBBBB;
+}
+
+.share {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 306px;
+    height: 52px;
+    left: 260px;
+    top: 837px;
+    background: #FFFFFF;
+    border: 2px solid #3DEF3D;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.share a {
+    display: flex;
+    margin-left: 121px;
+    margin-right: 130px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.025em;
+    color: #3DEF3D;
+}
+
+
+/* modal */
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    width: 40px;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    margin-left: 1200px;
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    border-radius: 31px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 52px;
+    cursor: pointer;
+}
+
+.tombol {
+    background: #3DEF3D;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+    color: #FFFFFF;
+    width: 300px;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(54, 52, 52);
+}
+
+label {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
