@@ -1,0 +1,198 @@
+@import url("https://use.typekit.net/rih8hmv.css");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 100%), url(asset/images/donate.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 7px;
+    height: 50px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* Tambahkan CSS untuk menu-icon */
+
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+}
+
+
+/* Main */
+
+.main {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(donate.jpg);
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    position: relative;
+}
+
+.tentang {
+    color: white;
+    margin: 50px 0 0 69px;
+    position: absolute;
+    padding: 20px 20px;
+}
+
+.tentang img {
+    display: block;
+    width: 250px;
+    height: 80px;
+    float: right;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tentang p {
+    font-size: 22px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-right: 263px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+}
+
+.owner {
+    display: flex;
+    margin: 610px 1000px 40px 95px;
+    position: absolute;
+}
+
+.img1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.img2 img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.hubungi {
+    color: white;
+    margin: 630px 95px 50px 785px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.hubungi1 {
+    margin-left: -25px;
+}
+
+.hubungi2 {
+    padding-top: 10px;
+}
+
+.hubungi3 {
+    padding-top: 10px;
+}
+
+.logo2 {
+    position: absolute;
+    margin: 668px 110px 50px 758px;
+}
+
+.logo-wa img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-email img {
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 49, 52, 0.9);
+}
